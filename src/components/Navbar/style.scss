@@ -1,0 +1,17 @@
+.navbar {
+  height: 60px;
+  width: 100%;
+  background-color: transparent;
+
+  .container {
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+h1 {
+  font-family: 'Bigilla', sans-serif;
+  pointer-events: none;
+}
