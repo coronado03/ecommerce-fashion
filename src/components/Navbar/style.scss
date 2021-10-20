@@ -1,17 +1,17 @@
 .navbar {
-  height: 60px;
+  position: absolute;
   width: 100%;
-  background-color: transparent;
+  z-index: 2;
 
   .container {
-    padding: 10px 50px;
+    padding: 15px 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
 }
 
-h1 {
+.logo {
   font-family: 'Bigilla', sans-serif;
   pointer-events: none;
 }

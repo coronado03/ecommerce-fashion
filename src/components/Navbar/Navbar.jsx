@@ -8,10 +8,10 @@ export function Navbar() {
     <div className="navbar">
       <div className="container">
         <div className="left-section">
-          <h1>eCom.</h1>
+          <h1 className="logo">eCom.</h1>
         </div>
         <div className="right-section">
-          <IoBagOutline style={{ marginRight: '20px', fontSize: '25px' }} />
+          <IoBagOutline style={{ marginRight: '30px', fontSize: '25px' }} />
           <BiUser style={{ fontSize: '25px' }} />
         </div>
       </div>
