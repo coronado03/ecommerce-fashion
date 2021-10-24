@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.scss';
 
-export function Home() {
+export default function Index() {
   return (
     <div>
       <div className="banner_image"></div>

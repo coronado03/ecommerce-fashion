@@ -1,5 +1,6 @@
-import { Navbar } from './Navbar/Navbar';
-import { Home } from './Home/Home';
-import { ShopSection } from './ShopSection/ShopSection';
+import Navbar from './Navbar/Index';
+import Home from './Home/Index';
+import ShopSection from './ShopSection/Index';
+import AboutSection from './AboutSection/Index';
 
-export { Navbar, Home, ShopSection };
+export { Navbar, Home, ShopSection, AboutSection };

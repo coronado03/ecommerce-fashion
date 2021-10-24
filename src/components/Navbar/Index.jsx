@@ -3,7 +3,7 @@ import './style.scss';
 import { IoBagOutline } from 'react-icons/io5';
 import { BiUser } from 'react-icons/bi';
 
-export function Navbar() {
+export default function Index() {
   return (
     <div className="navbar">
       <div className="container">
@@ -11,8 +11,10 @@ export function Navbar() {
           <h1 className="logo">eCom.</h1>
         </div>
         <div className="right-section">
-          <IoBagOutline style={{ marginRight: '30px', fontSize: '25px' }} />
-          <BiUser style={{ fontSize: '25px' }} />
+          <IoBagOutline
+            style={{ marginRight: '30px', fontSize: '25px', cursor: 'pointer' }}
+          />
+          <BiUser style={{ fontSize: '25px', cursor: 'pointer' }} />
         </div>
       </div>
     </div>
