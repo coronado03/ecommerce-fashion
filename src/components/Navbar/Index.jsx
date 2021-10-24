@@ -11,10 +11,10 @@ export default function Index() {
           <h1 className="logo">eCom.</h1>
         </div>
         <div className="right-section">
-          <IoBagOutline
+          <IoBagOutline className="nav-item"
             style={{ marginRight: '30px', fontSize: '25px', cursor: 'pointer' }}
           />
-          <BiUser style={{ fontSize: '25px', cursor: 'pointer' }} />
+          <BiUser className="nav-item" style={{ fontSize: '25px', cursor: 'pointer' }} />
         </div>
       </div>
     </div>
